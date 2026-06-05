@@ -1,0 +1,76 @@
+/* Fondo general */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+/* Contenedor */
+.container {
+    background: rgba(0, 0, 0, 0.85);
+    padding: 30px;
+    border-radius: 15px;
+    width: 320px;
+    box-shadow: 0 0 25px rgba(0, 255, 255, 0.6);
+}
+
+/* Título */
+h2 {
+    text-align: center;
+    color: #00ffff;
+    margin-bottom: 20px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 15px;
+    color: #ccc;
+    font-size: 14px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 8px;
+    border: 1px solid #00ffff;
+    background: #000;
+    color: #00ffff;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Efecto focus */
+input:focus {
+    box-shadow: 0 0 10px #00ffff;
+}
+
+/* Botón */
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    background: #00ffff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover botón */
+button:hover {
+    background: #0077ff;
+    color: white;
+    box-shadow: 0 0 15px #00ffff;
+}
+
+
+
